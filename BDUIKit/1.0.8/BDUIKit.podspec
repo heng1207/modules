@@ -57,5 +57,8 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # 尝试引入第三方依赖库
+  s.dependency 'BDFoundation', '~> 0.0.1'
   s.dependency 'AFNetworking'
+
+  
 end
